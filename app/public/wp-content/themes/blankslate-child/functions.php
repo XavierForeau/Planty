@@ -28,7 +28,7 @@ function theme_enqueue_styles()
 {
     wp_enqueue_style('parent-style', get_template_directory_uri() . '/style.css');
 }
-
+ 
 // Xavier - ajout du Logo dans le thème
 function themename_custom_logo_setup() {
 	$defaults = array(
