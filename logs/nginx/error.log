@@ -1,0 +1,2 @@
+2024/09/12 14:14:55 [alert] 14460#0: *12845 setsockopt(TCP_NODELAY) failed (22: Invalid argument) while keepalive, client: 127.0.0.1, server: 127.0.0.1:10013
+2024/09/12 14:14:55 [alert] 14460#0: *12846 setsockopt(TCP_NODELAY) failed (22: Invalid argument) while keepalive, client: 127.0.0.1, server: 127.0.0.1:10013

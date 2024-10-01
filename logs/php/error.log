@@ -1,0 +1,178 @@
+[14-Aug-2024 08:58:16 UTC] PHP Warning:  Undefined variable $qsid in /Users/xavierforeau/Local Sites/planty/app/public/wp-content/plugins/child-theme-configurator/includes/classes/CSS.php on line 958
+[14-Aug-2024 08:58:16 UTC] PHP Warning:  Undefined variable $qsid in /Users/xavierforeau/Local Sites/planty/app/public/wp-content/plugins/child-theme-configurator/includes/classes/CSS.php on line 960
+[14-Aug-2024 08:58:16 UTC] PHP Warning:  Undefined variable $qsid in /Users/xavierforeau/Local Sites/planty/app/public/wp-content/plugins/child-theme-configurator/includes/classes/CSS.php on line 967
+[14-Aug-2024 08:58:16 UTC] PHP Warning:  Undefined variable $qsid in /Users/xavierforeau/Local Sites/planty/app/public/wp-content/plugins/child-theme-configurator/includes/classes/CSS.php on line 968
+[14-Aug-2024 08:58:16 UTC] PHP Warning:  Undefined variable $qsid in /Users/xavierforeau/Local Sites/planty/app/public/wp-content/plugins/child-theme-configurator/includes/classes/CSS.php on line 971
+[14-Aug-2024 12:56:16 UTC] PHP Warning:  Undefined variable $qsid in /Users/xavierforeau/Local Sites/planty/app/public/wp-content/plugins/child-theme-configurator/includes/classes/CSS.php on line 958
+[14-Aug-2024 12:56:16 UTC] PHP Warning:  Undefined variable $qsid in /Users/xavierforeau/Local Sites/planty/app/public/wp-content/plugins/child-theme-configurator/includes/classes/CSS.php on line 960
+[14-Aug-2024 12:56:16 UTC] PHP Warning:  Undefined variable $qsid in /Users/xavierforeau/Local Sites/planty/app/public/wp-content/plugins/child-theme-configurator/includes/classes/CSS.php on line 967
+[14-Aug-2024 12:56:16 UTC] PHP Warning:  Undefined variable $qsid in /Users/xavierforeau/Local Sites/planty/app/public/wp-content/plugins/child-theme-configurator/includes/classes/CSS.php on line 968
+[14-Aug-2024 12:56:16 UTC] PHP Warning:  Undefined variable $qsid in /Users/xavierforeau/Local Sites/planty/app/public/wp-content/plugins/child-theme-configurator/includes/classes/CSS.php on line 971
+[16-Aug-2024 16:21:50 UTC] PHP Warning:  Undefined variable $qsid in /Users/xavierforeau/Local Sites/planty/app/public/wp-content/plugins/child-theme-configurator/includes/classes/CSS.php on line 958
+[16-Aug-2024 16:21:50 UTC] PHP Warning:  Undefined variable $qsid in /Users/xavierforeau/Local Sites/planty/app/public/wp-content/plugins/child-theme-configurator/includes/classes/CSS.php on line 960
+[16-Aug-2024 16:21:50 UTC] PHP Warning:  Undefined variable $qsid in /Users/xavierforeau/Local Sites/planty/app/public/wp-content/plugins/child-theme-configurator/includes/classes/CSS.php on line 967
+[16-Aug-2024 16:21:50 UTC] PHP Warning:  Undefined variable $qsid in /Users/xavierforeau/Local Sites/planty/app/public/wp-content/plugins/child-theme-configurator/includes/classes/CSS.php on line 968
+[16-Aug-2024 16:21:50 UTC] PHP Warning:  Undefined variable $qsid in /Users/xavierforeau/Local Sites/planty/app/public/wp-content/plugins/child-theme-configurator/includes/classes/CSS.php on line 971
+[19-Aug-2024 14:35:41 UTC] PHP Fatal error:  Uncaught Error: Undefined constant "wp" in /Users/xavierforeau/Local Sites/planty/app/public/wp-content/themes/blankslate-child/footer.php:9
+Stack trace:
+#0 /Users/xavierforeau/Local Sites/planty/app/public/wp-includes/template.php(810): require_once()
+#1 /Users/xavierforeau/Local Sites/planty/app/public/wp-includes/template.php(745): load_template('/Users/xavierfo...', true, Array)
+#2 /Users/xavierforeau/Local Sites/planty/app/public/wp-includes/general-template.php(92): locate_template(Array, true, true, Array)
+#3 /Users/xavierforeau/Local Sites/planty/app/public/wp-content/themes/blankslate/page.php(15): get_footer()
+#4 /Users/xavierforeau/Local Sites/planty/app/public/wp-includes/template-loader.php(106): include('/Users/xavierfo...')
+#5 /Users/xavierforeau/Local Sites/planty/app/public/wp-blog-header.php(19): require_once('/Users/xavierfo...')
+#6 /Users/xavierforeau/Local Sites/planty/app/public/index.php(17): require('/Users/xavierfo...')
+#7 {main}
+  thrown in /Users/xavierforeau/Local Sites/planty/app/public/wp-content/themes/blankslate-child/footer.php on line 9
+[19-Aug-2024 14:35:56 UTC] PHP Fatal error:  Uncaught Error: Undefined constant "footer" in /Users/xavierforeau/Local Sites/planty/app/public/wp-content/themes/blankslate-child/footer.php:9
+Stack trace:
+#0 /Users/xavierforeau/Local Sites/planty/app/public/wp-includes/template.php(810): require_once()
+#1 /Users/xavierforeau/Local Sites/planty/app/public/wp-includes/template.php(745): load_template('/Users/xavierfo...', true, Array)
+#2 /Users/xavierforeau/Local Sites/planty/app/public/wp-includes/general-template.php(92): locate_template(Array, true, true, Array)
+#3 /Users/xavierforeau/Local Sites/planty/app/public/wp-content/themes/blankslate/page.php(15): get_footer()
+#4 /Users/xavierforeau/Local Sites/planty/app/public/wp-includes/template-loader.php(106): include('/Users/xavierfo...')
+#5 /Users/xavierforeau/Local Sites/planty/app/public/wp-blog-header.php(19): require_once('/Users/xavierfo...')
+#6 /Users/xavierforeau/Local Sites/planty/app/public/index.php(17): require('/Users/xavierfo...')
+#7 {main}
+  thrown in /Users/xavierforeau/Local Sites/planty/app/public/wp-content/themes/blankslate-child/footer.php on line 9
+[19-Aug-2024 14:35:57 UTC] PHP Fatal error:  Uncaught Error: Undefined constant "footer" in /Users/xavierforeau/Local Sites/planty/app/public/wp-content/themes/blankslate-child/footer.php:9
+Stack trace:
+#0 /Users/xavierforeau/Local Sites/planty/app/public/wp-includes/template.php(810): require_once()
+#1 /Users/xavierforeau/Local Sites/planty/app/public/wp-includes/template.php(745): load_template('/Users/xavierfo...', true, Array)
+#2 /Users/xavierforeau/Local Sites/planty/app/public/wp-includes/general-template.php(92): locate_template(Array, true, true, Array)
+#3 /Users/xavierforeau/Local Sites/planty/app/public/wp-content/themes/blankslate/page.php(15): get_footer()
+#4 /Users/xavierforeau/Local Sites/planty/app/public/wp-includes/template-loader.php(106): include('/Users/xavierfo...')
+#5 /Users/xavierforeau/Local Sites/planty/app/public/wp-blog-header.php(19): require_once('/Users/xavierfo...')
+#6 /Users/xavierforeau/Local Sites/planty/app/public/index.php(17): require('/Users/xavierfo...')
+#7 {main}
+  thrown in /Users/xavierforeau/Local Sites/planty/app/public/wp-content/themes/blankslate-child/footer.php on line 9
+[11-Sep-2024 17:06:06 UTC] PHP Warning:  foreach() argument must be of type array|object, string given in /Users/xavierforeau/Local Sites/planty/app/public/wp-content/themes/blankslate-child/functions.php on line 72
+[11-Sep-2024 17:06:06 UTC] PHP Warning:  foreach() argument must be of type array|object, string given in /Users/xavierforeau/Local Sites/planty/app/public/wp-content/themes/blankslate-child/functions.php on line 72
+[12-Sep-2024 12:02:53 UTC] PHP Warning:  foreach() argument must be of type array|object, string given in /Users/xavierforeau/Local Sites/planty/app/public/wp-content/themes/blankslate-child/functions.php on line 72
+[12-Sep-2024 12:02:53 UTC] PHP Warning:  foreach() argument must be of type array|object, string given in /Users/xavierforeau/Local Sites/planty/app/public/wp-content/themes/blankslate-child/functions.php on line 72
+[17-Sep-2024 15:48:53 UTC] PHP Fatal error:  Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "eke" not found or invalid function name in /Users/xavierforeau/Local Sites/planty/app/public/wp-includes/class-wp-hook.php:324
+Stack trace:
+#0 /Users/xavierforeau/Local Sites/planty/app/public/wp-includes/plugin.php(205): WP_Hook->apply_filters('<div class="men...', Array)
+#1 /Users/xavierforeau/Local Sites/planty/app/public/wp-includes/nav-menu-template.php(302): apply_filters('wp_nav_menu', '<div class="men...', Object(stdClass))
+#2 /Users/xavierforeau/Local Sites/planty/app/public/wp-content/themes/blankslate-child/header.php(31): wp_nav_menu(Object(stdClass))
+#3 /Users/xavierforeau/Local Sites/planty/app/public/wp-includes/template.php(810): require_once('/Users/xavierfo...')
+#4 /Users/xavierforeau/Local Sites/planty/app/public/wp-includes/template.php(745): load_template('/Users/xavierfo...', true, Array)
+#5 /Users/xavierforeau/Local Sites/planty/app/public/wp-includes/general-template.php(48): locate_template(Array, true, true, Array)
+#6 /Users/xavierforeau/Local Sites/planty/app/public/wp-content/plugins/elementor/modules/page-templates/templates/header-footer.php(9): get_header()
+#7 /Users/xavierforeau/Local Sites/planty/app/public/wp-includes/template-loader.php(106): include('/Users/xavierfo...')
+#8 /Users/xavierforeau/Local Sites/planty/app/public/wp-blog-header.php(19): require_once('/Users/xavierfo...')
+#9 /Users/xavierforeau/Local Sites/planty/app/public/index.php(17): require('/Users/xavierfo...')
+#10 {main}
+  thrown in /Users/xavierforeau/Local Sites/planty/app/public/wp-includes/class-wp-hook.php on line 324
+[17-Sep-2024 15:49:24 UTC] PHP Fatal error:  Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "eke" not found or invalid function name in /Users/xavierforeau/Local Sites/planty/app/public/wp-includes/class-wp-hook.php:324
+Stack trace:
+#0 /Users/xavierforeau/Local Sites/planty/app/public/wp-includes/plugin.php(205): WP_Hook->apply_filters('<div class="men...', Array)
+#1 /Users/xavierforeau/Local Sites/planty/app/public/wp-includes/nav-menu-template.php(302): apply_filters('wp_nav_menu', '<div class="men...', Object(stdClass))
+#2 /Users/xavierforeau/Local Sites/planty/app/public/wp-content/themes/blankslate-child/header.php(31): wp_nav_menu(Object(stdClass))
+#3 /Users/xavierforeau/Local Sites/planty/app/public/wp-includes/template.php(810): require_once('/Users/xavierfo...')
+#4 /Users/xavierforeau/Local Sites/planty/app/public/wp-includes/template.php(745): load_template('/Users/xavierfo...', true, Array)
+#5 /Users/xavierforeau/Local Sites/planty/app/public/wp-includes/general-template.php(48): locate_template(Array, true, true, Array)
+#6 /Users/xavierforeau/Local Sites/planty/app/public/wp-content/plugins/elementor/modules/page-templates/templates/header-footer.php(9): get_header()
+#7 /Users/xavierforeau/Local Sites/planty/app/public/wp-includes/template-loader.php(106): include('/Users/xavierfo...')
+#8 /Users/xavierforeau/Local Sites/planty/app/public/wp-blog-header.php(19): require_once('/Users/xavierfo...')
+#9 /Users/xavierforeau/Local Sites/planty/app/public/index.php(17): require('/Users/xavierfo...')
+#10 {main}
+  thrown in /Users/xavierforeau/Local Sites/planty/app/public/wp-includes/class-wp-hook.php on line 324
+[17-Sep-2024 15:49:42 UTC] PHP Fatal error:  Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "" not found or invalid function name in /Users/xavierforeau/Local Sites/planty/app/public/wp-includes/class-wp-hook.php:326
+Stack trace:
+#0 /Users/xavierforeau/Local Sites/planty/app/public/wp-includes/plugin.php(205): WP_Hook->apply_filters('Nous rencontrer', Array)
+#1 /Users/xavierforeau/Local Sites/planty/app/public/wp-includes/nav-menu.php(890): apply_filters('the_title', 'Nous rencontrer', 14)
+#2 [internal function]: wp_setup_nav_menu_item(Object(WP_Post))
+#3 /Users/xavierforeau/Local Sites/planty/app/public/wp-includes/nav-menu.php(742): array_map('wp_setup_nav_me...', Array)
+#4 /Users/xavierforeau/Local Sites/planty/app/public/wp-includes/nav-menu-template.php(151): wp_get_nav_menu_items(Object(WP_Term), Array)
+#5 /Users/xavierforeau/Local Sites/planty/app/public/wp-content/themes/blankslate-child/header.php(31): wp_nav_menu(Object(stdClass))
+#6 /Users/xavierforeau/Local Sites/planty/app/public/wp-includes/template.php(810): require_once('/Users/xavierfo...')
+#7 /Users/xavierforeau/Local Sites/planty/app/public/wp-includes/template.php(745): load_template('/Users/xavierfo...', true, Array)
+#8 /Users/xavierforeau/Local Sites/planty/app/public/wp-includes/general-template.php(48): locate_template(Array, true, true, Array)
+#9 /Users/xavierforeau/Local Sites/planty/app/public/wp-content/plugins/elementor/modules/page-templates/templates/header-footer.php(9): get_header()
+#10 /Users/xavierforeau/Local Sites/planty/app/public/wp-includes/template-loader.php(106): include('/Users/xavierfo...')
+#11 /Users/xavierforeau/Local Sites/planty/app/public/wp-blog-header.php(19): require_once('/Users/xavierfo...')
+#12 /Users/xavierforeau/Local Sites/planty/app/public/index.php(17): require('/Users/xavierfo...')
+#13 {main}
+  thrown in /Users/xavierforeau/Local Sites/planty/app/public/wp-includes/class-wp-hook.php on line 326
+[17-Sep-2024 15:49:56 UTC] PHP Fatal error:  Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "eke" not found or invalid function name in /Users/xavierforeau/Local Sites/planty/app/public/wp-includes/class-wp-hook.php:324
+Stack trace:
+#0 /Users/xavierforeau/Local Sites/planty/app/public/wp-includes/plugin.php(205): WP_Hook->apply_filters('<div class="men...', Array)
+#1 /Users/xavierforeau/Local Sites/planty/app/public/wp-includes/nav-menu-template.php(302): apply_filters('wp_nav_menu', '<div class="men...', Object(stdClass))
+#2 /Users/xavierforeau/Local Sites/planty/app/public/wp-content/themes/blankslate-child/header.php(31): wp_nav_menu(Object(stdClass))
+#3 /Users/xavierforeau/Local Sites/planty/app/public/wp-includes/template.php(810): require_once('/Users/xavierfo...')
+#4 /Users/xavierforeau/Local Sites/planty/app/public/wp-includes/template.php(745): load_template('/Users/xavierfo...', true, Array)
+#5 /Users/xavierforeau/Local Sites/planty/app/public/wp-includes/general-template.php(48): locate_template(Array, true, true, Array)
+#6 /Users/xavierforeau/Local Sites/planty/app/public/wp-content/plugins/elementor/modules/page-templates/templates/header-footer.php(9): get_header()
+#7 /Users/xavierforeau/Local Sites/planty/app/public/wp-includes/template-loader.php(106): include('/Users/xavierfo...')
+#8 /Users/xavierforeau/Local Sites/planty/app/public/wp-blog-header.php(19): require_once('/Users/xavierfo...')
+#9 /Users/xavierforeau/Local Sites/planty/app/public/index.php(17): require('/Users/xavierfo...')
+#10 {main}
+  thrown in /Users/xavierforeau/Local Sites/planty/app/public/wp-includes/class-wp-hook.php on line 324
+[17-Sep-2024 15:49:57 UTC] PHP Fatal error:  Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "eke" not found or invalid function name in /Users/xavierforeau/Local Sites/planty/app/public/wp-includes/class-wp-hook.php:324
+Stack trace:
+#0 /Users/xavierforeau/Local Sites/planty/app/public/wp-includes/plugin.php(205): WP_Hook->apply_filters('<div class="men...', Array)
+#1 /Users/xavierforeau/Local Sites/planty/app/public/wp-includes/nav-menu-template.php(302): apply_filters('wp_nav_menu', '<div class="men...', Object(stdClass))
+#2 /Users/xavierforeau/Local Sites/planty/app/public/wp-content/themes/blankslate-child/header.php(31): wp_nav_menu(Object(stdClass))
+#3 /Users/xavierforeau/Local Sites/planty/app/public/wp-includes/template.php(810): require_once('/Users/xavierfo...')
+#4 /Users/xavierforeau/Local Sites/planty/app/public/wp-includes/template.php(745): load_template('/Users/xavierfo...', true, Array)
+#5 /Users/xavierforeau/Local Sites/planty/app/public/wp-includes/general-template.php(48): locate_template(Array, true, true, Array)
+#6 /Users/xavierforeau/Local Sites/planty/app/public/wp-content/plugins/elementor/modules/page-templates/templates/header-footer.php(9): get_header()
+#7 /Users/xavierforeau/Local Sites/planty/app/public/wp-includes/template-loader.php(106): include('/Users/xavierfo...')
+#8 /Users/xavierforeau/Local Sites/planty/app/public/wp-blog-header.php(19): require_once('/Users/xavierfo...')
+#9 /Users/xavierforeau/Local Sites/planty/app/public/index.php(17): require('/Users/xavierfo...')
+#10 {main}
+  thrown in /Users/xavierforeau/Local Sites/planty/app/public/wp-includes/class-wp-hook.php on line 324
+[17-Sep-2024 16:06:18 UTC] PHP Parse error:  Unmatched '}' in /Users/xavierforeau/Local Sites/planty/app/public/wp-content/themes/blankslate-child/functions.php on line 84
+[17-Sep-2024 16:06:18 UTC] PHP Parse error:  Unmatched '}' in /Users/xavierforeau/Local Sites/planty/app/public/wp-content/themes/blankslate-child/functions.php on line 84
+[17-Sep-2024 16:06:23 UTC] PHP Parse error:  Unmatched '}' in /Users/xavierforeau/Local Sites/planty/app/public/wp-content/themes/blankslate-child/functions.php on line 84
+[17-Sep-2024 16:06:23 UTC] PHP Warning:  Trying to access array offset on value of type bool in /Users/xavierforeau/Local Sites/planty/app/public/wp-includes/class-wp-recovery-mode-email-service.php on line 367
+[17-Sep-2024 16:06:23 UTC] PHP Warning:  Trying to access array offset on value of type bool in /Users/xavierforeau/Local Sites/planty/app/public/wp-includes/class-wp-recovery-mode-email-service.php on line 368
+[17-Sep-2024 16:07:43 UTC] PHP Warning:  foreach() argument must be of type array|object, string given in /Users/xavierforeau/Local Sites/planty/app/public/wp-content/themes/blankslate-child/functions.php on line 70
+[17-Sep-2024 16:07:43 UTC] PHP Warning:  foreach() argument must be of type array|object, string given in /Users/xavierforeau/Local Sites/planty/app/public/wp-content/themes/blankslate-child/functions.php on line 70
+[17-Sep-2024 16:08:25 UTC] PHP Warning:  foreach() argument must be of type array|object, string given in /Users/xavierforeau/Local Sites/planty/app/public/wp-content/themes/blankslate-child/functions.php on line 71
+[17-Sep-2024 16:08:25 UTC] PHP Warning:  foreach() argument must be of type array|object, string given in /Users/xavierforeau/Local Sites/planty/app/public/wp-content/themes/blankslate-child/functions.php on line 71
+[17-Sep-2024 16:30:12 UTC] PHP Warning:  foreach() argument must be of type array|object, string given in /Users/xavierforeau/Local Sites/planty/app/public/wp-content/themes/blankslate-child/functions.php on line 72
+[17-Sep-2024 16:30:12 UTC] PHP Warning:  foreach() argument must be of type array|object, string given in /Users/xavierforeau/Local Sites/planty/app/public/wp-content/themes/blankslate-child/functions.php on line 72
+[17-Sep-2024 16:45:21 UTC] PHP Fatal error:  Uncaught Error: Cannot use string offset as an object in /Users/xavierforeau/Local Sites/planty/app/public/wp-content/themes/blankslate-child/functions.php:70
+Stack trace:
+#0 /Users/xavierforeau/Local Sites/planty/app/public/wp-includes/class-wp-hook.php(324): add_admin_link('<li id="menu-it...', Object(stdClass))
+#1 /Users/xavierforeau/Local Sites/planty/app/public/wp-includes/plugin.php(205): WP_Hook->apply_filters('<li id="menu-it...', Array)
+#2 /Users/xavierforeau/Local Sites/planty/app/public/wp-includes/nav-menu-template.php(267): apply_filters('wp_nav_menu_ite...', '<li id="menu-it...', Object(stdClass))
+#3 /Users/xavierforeau/Local Sites/planty/app/public/wp-content/themes/blankslate-child/header.php(31): wp_nav_menu(Object(stdClass))
+#4 /Users/xavierforeau/Local Sites/planty/app/public/wp-includes/template.php(810): require_once('/Users/xavierfo...')
+#5 /Users/xavierforeau/Local Sites/planty/app/public/wp-includes/template.php(745): load_template('/Users/xavierfo...', true, Array)
+#6 /Users/xavierforeau/Local Sites/planty/app/public/wp-includes/general-template.php(48): locate_template(Array, true, true, Array)
+#7 /Users/xavierforeau/Local Sites/planty/app/public/wp-content/plugins/elementor/modules/page-templates/templates/header-footer.php(9): get_header()
+#8 /Users/xavierforeau/Local Sites/planty/app/public/wp-includes/template-loader.php(106): include('/Users/xavierfo...')
+#9 /Users/xavierforeau/Local Sites/planty/app/public/wp-blog-header.php(19): require_once('/Users/xavierfo...')
+#10 /Users/xavierforeau/Local Sites/planty/app/public/index.php(17): require('/Users/xavierfo...')
+#11 {main}
+  thrown in /Users/xavierforeau/Local Sites/planty/app/public/wp-content/themes/blankslate-child/functions.php on line 70
+[19-Sep-2024 12:54:19 UTC] PHP Warning:  Undefined variable $location in /Users/xavierforeau/Local Sites/planty/app/public/wp-content/themes/blankslate-child/functions.php on line 73
+[19-Sep-2024 12:54:19 UTC] PHP Warning:  Undefined variable $location in /Users/xavierforeau/Local Sites/planty/app/public/wp-content/themes/blankslate-child/functions.php on line 73
+[19-Sep-2024 12:56:41 UTC] PHP Warning:  Undefined array key "registered-menu-location-slug" in /Users/xavierforeau/Local Sites/planty/app/public/wp-content/themes/blankslate-child/functions.php on line 70
+[19-Sep-2024 12:56:41 UTC] PHP Warning:  Attempt to read property "name" on bool in /Users/xavierforeau/Local Sites/planty/app/public/wp-content/themes/blankslate-child/functions.php on line 71
+[19-Sep-2024 12:56:41 UTC] PHP Warning:  Undefined variable $menu_name in /Users/xavierforeau/Local Sites/planty/app/public/wp-content/themes/blankslate-child/functions.php on line 74
+[19-Sep-2024 12:56:42 UTC] PHP Warning:  Undefined array key "registered-menu-location-slug" in /Users/xavierforeau/Local Sites/planty/app/public/wp-content/themes/blankslate-child/functions.php on line 70
+[19-Sep-2024 12:56:42 UTC] PHP Warning:  Attempt to read property "name" on bool in /Users/xavierforeau/Local Sites/planty/app/public/wp-content/themes/blankslate-child/functions.php on line 71
+[19-Sep-2024 12:56:42 UTC] PHP Warning:  Undefined variable $menu_name in /Users/xavierforeau/Local Sites/planty/app/public/wp-content/themes/blankslate-child/functions.php on line 74
+[19-Sep-2024 12:57:48 UTC] PHP Warning:  Undefined array key "registered-menu-location-slug" in /Users/xavierforeau/Local Sites/planty/app/public/wp-content/themes/blankslate-child/functions.php on line 70
+[19-Sep-2024 12:57:48 UTC] PHP Warning:  Undefined array key "registered-menu-location-slug" in /Users/xavierforeau/Local Sites/planty/app/public/wp-content/themes/blankslate-child/functions.php on line 70
+[19-Sep-2024 12:58:58 UTC] PHP Warning:  Undefined array key "registered-menu-location-slug" in /Users/xavierforeau/Local Sites/planty/app/public/wp-content/themes/blankslate-child/functions.php on line 70
+[19-Sep-2024 12:58:58 UTC] PHP Warning:  Undefined array key "registered-menu-location-slug" in /Users/xavierforeau/Local Sites/planty/app/public/wp-content/themes/blankslate-child/functions.php on line 70
+[19-Sep-2024 12:59:23 UTC] PHP Warning:  Undefined array key "registered-menu-location-slug" in /Users/xavierforeau/Local Sites/planty/app/public/wp-content/themes/blankslate-child/functions.php on line 70
+[19-Sep-2024 12:59:23 UTC] PHP Warning:  Attempt to read property "name" on bool in /Users/xavierforeau/Local Sites/planty/app/public/wp-content/themes/blankslate-child/functions.php on line 73
+[19-Sep-2024 12:59:23 UTC] PHP Warning:  Undefined array key "registered-menu-location-slug" in /Users/xavierforeau/Local Sites/planty/app/public/wp-content/themes/blankslate-child/functions.php on line 70
+[19-Sep-2024 12:59:23 UTC] PHP Warning:  Attempt to read property "name" on bool in /Users/xavierforeau/Local Sites/planty/app/public/wp-content/themes/blankslate-child/functions.php on line 73
+[19-Sep-2024 12:59:38 UTC] PHP Warning:  Undefined array key "registered-menu-location-slug" in /Users/xavierforeau/Local Sites/planty/app/public/wp-content/themes/blankslate-child/functions.php on line 70
+[19-Sep-2024 12:59:38 UTC] PHP Warning:  Undefined array key "registered-menu-location-slug" in /Users/xavierforeau/Local Sites/planty/app/public/wp-content/themes/blankslate-child/functions.php on line 70
+[19-Sep-2024 13:00:12 UTC] PHP Warning:  Array to string conversion in /Users/xavierforeau/Local Sites/planty/app/public/wp-content/themes/blankslate-child/functions.php on line 73
+[19-Sep-2024 13:00:12 UTC] PHP Warning:  Array to string conversion in /Users/xavierforeau/Local Sites/planty/app/public/wp-content/themes/blankslate-child/functions.php on line 73
+[19-Sep-2024 13:00:27 UTC] PHP Warning:  Attempt to read property "name" on array in /Users/xavierforeau/Local Sites/planty/app/public/wp-content/themes/blankslate-child/functions.php on line 73
+[19-Sep-2024 13:00:27 UTC] PHP Warning:  Attempt to read property "name" on array in /Users/xavierforeau/Local Sites/planty/app/public/wp-content/themes/blankslate-child/functions.php on line 73
+[19-Sep-2024 13:02:59 UTC] PHP Parse error:  syntax error, unexpected token "}", expecting ";" in /Users/xavierforeau/Local Sites/planty/app/public/wp-content/themes/blankslate-child/functions.php on line 74
+[19-Sep-2024 13:02:59 UTC] PHP Parse error:  syntax error, unexpected token "}", expecting ";" in /Users/xavierforeau/Local Sites/planty/app/public/wp-content/themes/blankslate-child/functions.php on line 74
+[24-Sep-2024 12:48:36 UTC] Erreur d’événement de replanification de tâche pour le crochet action_scheduler_run_queue. Code d’erreur : could_not_set. Message d’erreur : La liste des évènements planifiés n’a pas pu être sauvegardée.. Données : {"schedule":"every_minute","args":["WP Cron"],"interval":60}
+[26-Sep-2024 16:00:59 UTC] PHP Warning:  filemtime(): stat failed for /Users/xavierforeau/Local Sites/planty/app/public/wp-content/themes/blankslate-child/css/theme.css in /Users/xavierforeau/Local Sites/planty/app/public/wp-content/themes/blankslate-child/functions.php on line 32
+[26-Sep-2024 16:00:59 UTC] PHP Warning:  filemtime(): stat failed for /Users/xavierforeau/Local Sites/planty/app/public/wp-content/themes/blankslate-child/css/theme.css in /Users/xavierforeau/Local Sites/planty/app/public/wp-content/themes/blankslate-child/functions.php on line 32
