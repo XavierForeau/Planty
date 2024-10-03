@@ -2,7 +2,6 @@
             </div>
             <footer id="footer" role="contentinfo">
 
-                // Xavier - ajout du menu en pied de page 
                 <?php
                 wp_nav_menu([
                     'theme-location' => 'footer',

@@ -126,20 +126,28 @@ header #menu .btn_commander a:hover {
 
 /* MENU ADMIN */
 /* re-tri du menu avec l'insertion du menu Admin */
+a{
+   color:black;
+}
 .menu li{
    order:3;
 }
 .menu a{
-   color:black;
+  text-decoration: none;
 }
 .menu .menu_admin{
    order:2;
+   color: black;
+}
+.menu-admin a{
+   color:black;
 }
 .menu li:first-child{
    order:1;
 }
 .menu #menu-item-40{
    background-color: #DC9F96;
+   color:white; /* Eke */
 }
 /* ------------------------------------- */
 /* LOGO */
@@ -205,15 +213,37 @@ footer a:hover {
     }
 }
 
+/* -------------------------------------- 
+   Nous Contacter : repositionnement 
+   de la feuille à l'intérieur de la page 
+ ---------------------------------------- */
+.elementor-element-fadc0d5 {
+   right: 0px !important;
+}
+
 /* --------------------------- */
 /* Nous Contacter : formulaire */
 .uacf7-form-90 label {
-    margin: 20px 0 20px 0;
+   margin: 20px 0 20px 0;
+}
+.uacf7-form-90 span {
+   padding-top: 10px;
+}
+.uacf7-form-90 input {
+   border-radius: 7px;
+   height: 70px;
+   width: 100% !important;
+}
+.uacf7-form-90 textarea {
+   border-radius: 7px;
 }
 .wpcf7-form-control-wrap input {
     margin: 5px 0 0 0;
 }
-
+.wpcf7-form label {
+   display: flex;
+   flex-direction: column;
+ }
 /* --------------------------- */
 /* COMMANDER : Qtt             */
 .uacf7-col-3{
@@ -221,8 +251,14 @@ footer a:hover {
     justify-content: center;
 }
 .uacf7-col-3 span {
-    width: 55px;
-    display: block;
+   width: 55px;
+   display: block;
+}
+.uacf7-col-3 input {
+   width: 55px;
+   height: 56px;
+   border: none;
+   font-size: 16px;
 }
 
 /* COMMANDER : Qtt suppression des flèches dans l'input (Firefox) */
@@ -253,6 +289,22 @@ input[type=number] {
     margin-top: 0px;
 }
 
+/* Commander : espacement entre les colonnes */
+.uacf7-col-6 {
+   color:white;
+}
+/* Libellé du champ de saisie */
+.uacf7-col-6 label {
+   margin-top: 20px;
+   font-size: 20px;
+ }
+/* champ de saisie */
+.uacf7-col-6 input{
+   border-radius: 7px;
+   margin-top: 10px;
+   height: 71px;
+}
+
 /* COMMANDER : trait horizontal au dessus du formulaire de commande */
 .elementor-widget-container2{
     margin : 40px 0 60px 0;
@@ -263,8 +315,12 @@ input[type=number] {
 /* Espace avant et après le trait vertical */
 .uacf7-col-6:first-child{
     border-right: 1px solid white;
-    padding-right: 15px;
+    padding-right: 30px;
 }
+.uacf7-col-6:last-child{
+   padding-left: 30px;
+}
+
 .uacf7-form-90 label{
     padding-top: 20px;
 }
@@ -272,6 +328,7 @@ input[type=number] {
 .bouton{
     justify-content: center;
     display: grid;
+    margin-top: 30px;
 }
 
 /* COMMANDER : Reformattage LIVRAISON pour les mobiles */
@@ -279,11 +336,15 @@ input[type=number] {
     .uacf7-col-6:last-child{
         padding-left: 15px;
     }
+    /* positionnement et espacement entre les champs de saisie des Qtt */ 
     .uacf7-col-3{
         justify-content: flex-end;
+        margin-top:20px;
+        margin-bottom: 20px;
     }
-    /* Suppression du trait vertical  */
+    /* Suppression du trait vertical et réduction de la marge  */
     .uacf7-col-6:first-child{
         border-right: 0 solid white;
+        padding-right: 10px;
     }
 }
